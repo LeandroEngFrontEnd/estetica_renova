@@ -1,4 +1,3 @@
-
 @media(max-width: 973px) {
 
 
@@ -31,7 +30,7 @@
 
 }
 
-@media(max-width: 678px){
+@media(max-width: 678px) {
 
 
     .banner-txt {
@@ -61,55 +60,48 @@
 
 }
 
-@media(max-width: 926px){
+/*  About  */
 
-    .container_about{
-flex-direction: column;
-align-items: center;    }
+@media(max-width: 973px) {
 
-
-}
-
-@media(max-width: 564px) {
-
-
-    .bd-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    .container_about {
+        flex-direction: column;
     }
 
-    .box-txt p{
-        font-size: 12px;
-    }
-.box-txt h3{
-    font-size: 18px;
+
 }
 
-.box i{
-    font-size: 35px;
-}
 
-    .whatsapp {
-        border: none;
+/*  Boxs  */
+
+@media(max-width: 716px ){
+
+    .container-box{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     }
 
-    .comodidade,
-    .endereco {
-        border-top: 1px solid #fff;
+    .box{
+        flex-direction: column;
     }
-    
-.comodidade {
-    border: none;
-}
-.box{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
 
+    .telefone,
+    .zap{
+    border-bottom: 1px solid #fff;
+    }
+
+    .end{
+        border:none;
+    }
 
 }
+@media(max-width: 494px ){
+
+    .container-box{
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); 
+    }
+}
+
 
 /*  menu mobile  */
 
@@ -146,12 +138,13 @@ align-items: center;    }
 
 /*  Banner Central  */
 
-@media(max-width: 877px){
+@media(max-width: 877px) {
 
     .central_imagem {
         display: none;
     }
-    .container_central{
+
+    .container_central {
         align-items: center;
         justify-content: center;
         padding: 1rem;
